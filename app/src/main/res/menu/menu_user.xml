@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/editProfile"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="Editar perfil" />
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:id="@+id/editProfile_icon"
+        android:icon="@mipmap/ic_person_white"
+        android:title=""
+        app:showAsAction="ifRoom" />
+
+
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/deleteChat"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="Eliminar chat" />
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:id="@+id/deleteChat_icon"
+        android:icon="@mipmap/ic_delete_white"
+        android:title=""
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/addRating"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="Valorar usuario" />
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:id="@+id/addRating_icon"
+        android:icon="@mipmap/ic_star_white"
+        android:title=""
+        app:showAsAction="always" />
+
+
+
+
+
+</menu>
